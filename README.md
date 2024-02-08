@@ -1,40 +1,48 @@
-# Getting Started with Create React App
+# React Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo List application built using React. It allows users to add, move, and delete tasks between three categories: Pending, In Progress, and Completed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new tasks to the Pending list.
+- Move tasks from Pending to In Progress and vice versa.
+- Mark tasks as completed and move them to the Completed list.
+- Delete tasks from any list.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- React Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone <repository-url>
 
-### `npm run build`
+2. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Run the application:
+   ```bash
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application Structure
 
-### `npm run eject`
+  - `App.js:` Main component containing the logic for task management.
+  - `App.css:` Stylesheet for the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Use
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  1. Enter your task in the input field and press the "+" button to add it to the Pending list.
+  2. Click on the checkmark icon to move a task to the In Progress list.
+  3. Click on the checkmark icon in the In Progress list to mark a task as completed and move it to the Completed list.
+  4. Click on the trash icon to delete a task from any list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Project Video
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://github.com/SyedSabee/To-Do-List/assets/145167243/4f1db09c-04be-4ae5-b3c4-758c9d4ffd80
+
