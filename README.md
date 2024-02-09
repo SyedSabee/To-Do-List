@@ -1,5 +1,5 @@
 # React Todo List App
-
+ 
 This is a simple Todo List application built using React. It allows users to add, move, and delete tasks between three categories: Pending, In Progress, and Completed.
 
 ## Features
